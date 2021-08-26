@@ -1,0 +1,25 @@
+@charset "EUC-KR";
+
+body {
+	width:80%;
+	height:100%;
+	margin: 1% 1% 10% 10%;
+	
+}
+header {
+	background-color: #c0c0c0;
+}
+
+nav {	
+	float: right;
+			overflow:auto;
+	
+}
+#container {
+		background-color: #c0c0c0;
+		clear: right;
+}
+footer {
+		background-color: #c0c0c0;
+}
+
