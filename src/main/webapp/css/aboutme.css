@@ -26,7 +26,7 @@ ul {
 
 ul li {
   border: 1px solid green;
-  background: green;
+  background: rgb(86, 177, 147);;
   margin: 0px 0px 0px 5px;
   padding: 10px 0px 0px 0px;
   list-style: none;
@@ -82,7 +82,9 @@ p {
   background-color: rgb(86, 177, 147);
   height: 40px;
   width: 100px;
+  color:white;
   cursor: pointer;
+  font-weight:800;
   box-shadow: 0px 0px 1px 0px;
 }
 .btn:hover {
