@@ -60,6 +60,9 @@ nav {
   padding-right: 2%;
   float: right;
 }
+h1 {
+	padding:0px 0px 0px 60px;
+}
 h3 {
   padding: 0px 0px 0px 60px;
 }
