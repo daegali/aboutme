@@ -13,11 +13,11 @@ header {
   margin-bottom: 10px;
 }
 footer {
-  position: relative;
   text-align: center;
   background-color: gainsboro;
   border: solid 1px gainsboro;
   margin-top: 10px;
+  clear: both;
 }
 ul {
   margin: 2px 25px 0px 0px;
@@ -40,6 +40,19 @@ ul a {
   color: white;
   font-weight: 800;
 }
+hr {
+  height: 3px;
+  background: #4444;
+  margin: 0px 20px 0px 20px;
+}
+
+section div {
+  display: inline-block;
+}
+
+.dv {
+  position: absolute;
+}
 
 nav {
   padding-top: 1%;
@@ -53,6 +66,10 @@ h3 {
 p {
   padding: 0px 0px 10px 60px;
 }
+.wrap {
+  display: inline;
+}
+
 .list {
   background-color: white;
   padding: 0px 0px 0px 20px;
@@ -60,7 +77,6 @@ p {
   width: 100%;
   border: 0px;
   background: gainsboro;
-  list-style: none;
 }
 .btn {
   background-color: rgb(86, 177, 147);
@@ -88,8 +104,30 @@ p {
   padding-top: 10px;
   background-color: gainsboro;
   clear: both;
+  text-align:center;
   border: solid 2px gainsboro;
 }
+#wrap {
+  padding-top: 10px;
+  background-color: gainsboro;
+  clear: both;
+  border: solid 2px gainsboro;
+}
+#mto{
+	 background-color: gainsboro;
+}
+#mypoto {
+  background-color: gainsboro;
+  width: 97%;
+}
+#ig {
+  width: 350px;
+  height: 200px;
+  border: solid 10px #4444;
+  background: gainsboro;
+  margin: 0px 0px 0px 60px;
+}
+
 img {
   width: 550px;
   height: 320px;
