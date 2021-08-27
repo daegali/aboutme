@@ -4,15 +4,41 @@ body {
   width: 80%;
   height: 100%;
   margin: 2% 0% 10% 10%;
-  text-align: center;
-  box-shadow: 0px 0px 0px 0px;
 }
 header {
   overflow: auto;
+  text-align: center;
   background-color: gainsboro;
   border: solid 1px gainsboro;
-  box-shadow: 0px 0px 0px 0px;
   margin-bottom: 10px;
+}
+footer {
+  position: relative;
+  text-align: center;
+  background-color: gainsboro;
+  border: solid 1px gainsboro;
+  margin-top: 10px;
+}
+ul {
+  margin: 2px 25px 0px 0px;
+  clear: both;
+}
+
+ul li {
+  border: 1px solid green;
+  background: green;
+  margin: 0px 0px 0px 5px;
+  padding: 10px 0px 0px 0px;
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
 }
 
 nav {
@@ -20,6 +46,21 @@ nav {
   padding-bottom: 2%;
   padding-right: 2%;
   float: right;
+}
+h3 {
+  padding: 0px 0px 0px 60px;
+}
+p {
+  padding: 0px 0px 10px 60px;
+}
+.list {
+  background-color: white;
+  padding: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  border: 0px;
+  background: gainsboro;
+  list-style: none;
 }
 .btn {
   background-color: rgb(86, 177, 147);
@@ -53,10 +94,4 @@ img {
   width: 550px;
   height: 320px;
   margin-bottom: 20px;
-}
-footer {
-  position: relative;
-  background-color: gainsboro;
-  border: solid 1px gainsboro;
-  margin-top: 10px;
 }
